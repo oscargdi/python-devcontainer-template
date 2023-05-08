@@ -15,9 +15,10 @@
 			"settings": {
 				"editor.codeActionsOnSave": {
 					"source.organizeImports": true
-				  },
+				},
 				"editor.formatOnSave": true,
 				"files.insertFinalNewline": true,
+				"python.formatting.provider": "black",
 				"workbench.editor.highlightModifiedTabs": true
 			}
 		}
