@@ -1,3 +1,4 @@
 #!/bin/bash
 
-# pre-commit install
+pipenv install --dev
+pipenv run pre-commit install
