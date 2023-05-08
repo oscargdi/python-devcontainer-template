@@ -1,0 +1,25 @@
+{
+	"name": "Python Devcontainer template",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"eamodio.gitlens",
+				"usernamehw.errorlens"
+			],
+			"settings": {
+				"editor.codeActionsOnSave": {
+					"source.organizeImports": true
+				  },
+				"editor.formatOnSave": true,
+				"files.insertFinalNewline": true,
+				"workbench.editor.highlightModifiedTabs": true
+			}
+		}
+	}
+}
